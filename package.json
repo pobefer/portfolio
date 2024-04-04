@@ -1,0 +1,30 @@
+{
+  "name": "portfolio",
+  "type": "module",
+  "version": "0.0.1",
+  "scripts": {
+    "dev": "astro dev",
+    "start": "astro dev",
+    "build": "astro check && astro build",
+    "preview": "astro preview",
+    "astro": "astro"
+  },
+  "dependencies": {
+    "@astrojs/check": "^0.5.1",
+    "@astrojs/svelte": "^5.0.3",
+    "@astrojs/tailwind": "^5.1.0",
+    "@astrouxds/react": "^7.20.0",
+    "astro": "^4.3.5",
+    "eslint": "^8.56.0",
+    "flowbite": "^2.2.1",
+    "flowbite-svelte": "^0.44.23",
+    "standard": "^17.1.0",
+    "svelte": "^4.2.10",
+    "tailwindcss": "^3.4.1",
+    "tailwindcss-animated": "^1.0.1",
+    "typescript": "^5.3.3"
+  },
+  "eslintConfig": {
+    "extends": "./node_modules/standard/eslintrc.json"
+  }
+}
